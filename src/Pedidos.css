@@ -1,0 +1,174 @@
+
+.content-card-product h3:hover {
+	color: var(--primary-color);
+}
+
+.add-cart {
+	justify-self: start;
+	border: 2px solid var(--primary-color);
+	padding: 1rem;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: all 0.4s ease;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.add-cart:hover {
+	background-color: var(--primary-color);
+}
+
+.add-cart i {
+	font-size: 1.5rem;
+	color: var(--primary-color);
+}
+
+.add-cart:hover i {
+	color: #fff;
+}
+
+.content-card-product .price {
+	justify-self: end;
+	align-self: center;
+
+	font-size: 1.7rem;
+	font-weight: 600;
+}
+
+.content-card-product .price span {
+	font-size: 1.5rem;
+	font-weight: 400;
+	text-decoration: line-through;
+	color: #777;
+	margin-left: 0.5rem;
+}
+
+
+/* ************* ICONOS ************* */
+
+
+.icono-cliente {
+    font-size: 4rem; /* Cambia el tamaño del icono ajustando el valor de '2rem' según sea necesario */
+    align-items: center;
+	text-align: left;
+	color:var(--primary-color)
+}
+
+.icono-User {
+    font-size: 4rem; /* Cambia el tamaño del icono ajustando el valor de '2rem' según sea necesario */
+    align-items: center;
+	text-align: left;
+    color:var(--primary-color)
+
+}
+.icono-basket {
+    font-size: 4.5rem; /* Cambia el tamaño del icono ajustando el valor de '2rem' según sea necesario */
+    align-items: center;
+	text-align: left;
+    color:var(--primary-color)
+}
+
+.icono-lupa{
+    font-size: 2rem; /* Cambia el tamaño del icono ajustando el valor de '2rem' según sea necesario */
+    align-items: center;
+	text-align: left;
+    color: white;
+}
+
+.icono-basket-card{
+    font-size: 2.5rem; /* Cambia el tamaño del icono ajustando el valor de '2rem' según sea necesario */
+    align-items: center;
+	text-align: left;
+    color:var(--primary-color)
+}
+
+/* Estilos del contenedor principal de reservaciones */
+#contenedor_reservaciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+/* Estilos de cada tarjeta de reservación */
+.reservacion {
+    display: flex; /* Añadir esta propiedad para usar flexbox */
+    width: 700px;
+    gap: 1.5rem;
+    height: 230px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Estilos para la imagen */
+.imagenPastel {
+    width: 300px;
+    height: 100%; /* Ajustar al 100% del contenedor padre */
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border-radius: 8px; /* Añadir bordes redondeados solo a la izquierda */
+}
+
+/* Estilos para el texto */
+.reservaData {
+    width: 50%;
+    padding: 0 15px; /* Agregar relleno solo a los lados */
+}
+
+.reservacion h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.reservacion p {
+    margin: 8px 0;
+}
+
+/* Estilos del botón Eliminar Reservación */
+.eliminar-btn {
+	background-color: #8B374A;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.eliminar-btn:hover {
+    background-color: #ff4646;
+}
+
+
+.eliminar-btn:hover {
+    background-color: #4b1e29; /* Cambia el color al pasar el cursor sobre el botón */
+  }
+  
+
+.IniSesReserva{
+    padding-top: 2rem;
+    padding-bottom: 10px;
+	border-bottom: 1px solid #e4e4e4;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    font-size: 24px;
+	font-weight: 300;
+}
+
+.ReservaNull{
+    padding-top: 2rem;
+    padding-bottom: 10px;
+	border-bottom: 1px solid #e4e4e4;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    font-size: 24px;
+	font-weight: 300;
+}

@@ -1,0 +1,72 @@
+html {
+	font-size: 62.5%;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f9f5f0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.sesionChat{
+    resize: vertical;
+    margin-top: 100px;
+    width: 60%;
+    height: 100%;
+    background-color: bisque;
+    box-shadow: 1px 1px 7px rgb(37, 37, 37);
+    margin: 0px auto;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+.chatBox{
+    resize: vertical;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 30pc;
+    background-color: beige;
+    border: 3px solid burlywood;
+}
+
+.chatBox:focus,:focus-visible{
+    border: 3px solid #8B374A;
+}
+
+.textBox{
+    width: 70%;
+    height: 30px;
+    padding: 6px;
+    background-color: beige;
+    border: 2px solid burlywood;
+    border-radius: 5%;
+}
+
+button {
+    margin-left: 20px;
+    color: bisque;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #8B374A;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+
+  button:hover {
+    border-color: #646cff;
+    background-color: #c4647b;
+    color: white;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
